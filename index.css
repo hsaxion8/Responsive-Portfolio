@@ -1,0 +1,174 @@
+
+h1 {
+    background-color: #7fdbd7;
+    color: white;
+    display: inline-block;
+
+    float: left;
+    margin-top: .1px;
+    height: 46px;
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 18px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    position: absolute;
+    left: 16%;
+
+}
+
+
+
+header {
+    background-color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: inline-block;
+    margin-top: 0%;
+    height: 60px;
+    box-shadow: 2px 2px 2px 2px #E9E9E9;
+    font-size: 18px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(131, 131, 131);
+    color: white;
+    text-align: center;
+    border-top: 10px solid #7fdbd7;
+}
+
+#nav {
+    float: right;
+    font-size: 18px;
+    position: absolute;
+    right: -5%;
+    top: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 10px;
+    overflow: hidden;
+    float: left;
+    padding-right: 208px;
+    display: inline;
+    height: 46px;
+
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: inline-block;
+    color: #4aaaa5;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(171, 242, 247);
+}
+
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: '#777';
+    background: '#777';
+    width: '960px';
+    font-size: 18px;
+    background-image: url(https://previews.123rf.com/images/mkphotoshu/mkphotoshu1509/mkphotoshu150901302/45439255-white-concrete-background-cement-textured.jpg);
+}
+
+#div2 {
+    display: inline-block;
+    background-color: #ebebeb;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    background: white;
+    font-size: 18px;
+    float: left;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 75px;
+}
+
+.p {
+    float: left;
+}
+
+.hamspic {
+    display: inline;
+    float: left;
+    padding-right: 10px;
+}
+@media (max-width: 980px) {
+    h1 {
+        position: static;
+        width: 100%;
+        font-size: 20px;
+    }
+    body {
+        width: 90%;
+        float: left;
+        margin: 0;
+        padding: 0;
+        margin-top: 50px;
+        margin-left: 20px;
+        float: inline;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    h1 {
+        position: static;
+        width: 100%;
+        font-size: 20px;
+    }
+    body {
+        width: 90%;
+        float: left;
+        margin: 0;
+        padding: 0;
+        margin-top: 50px;
+        float: inline;
+    }
+   
+}
+
+@media (max-width: 640px) {
+h1 {
+    position: static;
+    width: 100%;
+    font-size: 20px;
+}
+body {
+  margin-left: -110px;
+}
+#nav {
+    font-size: 20px;
+    margin-right: -135px;
+    margin-top: 50px;
+}
+ul {
+       
+    width: 100%;
+    font-size: 20px;
+    padding-left: 50px;
+    margin-left: -150px;
+}
+
+}
